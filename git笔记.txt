@@ -1,63 +1,63 @@
-git °æ±¾¿ØÖÆÏµÍ³ 
+git ç‰ˆæœ¬æ§åˆ¶ç³»ç»Ÿ 
 
-Git»ù±¾³£ÓÃÃüÁîÈçÏÂ£º
+GitåŸºæœ¬å¸¸ç”¨å‘½ä»¤å¦‚ä¸‹ï¼š
 
-ÅäÖÃÈ«¾ÖÓÃ»§Ãû£º
-¡¾git config --global user.name 'ÓÃ»§Ãû'
-git config --global user.email'233@qq.com'¡¿
+é…ç½®å…¨å±€ç”¨æˆ·åï¼š
+ã€git config --global user.name 'ç”¨æˆ·å'
+git config --global user.email'233@qq.com'ã€‘
 
-mkdir XX (´´½¨Ò»¸ö¿ÕÄ¿Â¼ XXÖ¸Ä¿Â¼Ãû)
+mkdir XX (åˆ›å»ºä¸€ä¸ªç©ºç›®å½• XXæŒ‡ç›®å½•å)
 
-git ²é¿´ÊÇ·ñ°²×°³É¹¦
+git æŸ¥çœ‹æ˜¯å¦å®‰è£…æˆåŠŸ
 
-git -version ²é¿´°æ±¾ºÅ
+git -version æŸ¥çœ‹ç‰ˆæœ¬å·
 
-git -init ÔÚÎÄ¼ş¼ĞÖĞÖ±½Ó´ò¿ªgit bash here  £º°Ñµ±Ç°µÄÄ¿Â¼±ä³É¿ÉÒÔ¹ÜÀíµÄgit²Ö¿â£¬Éú³ÉÒş²Ø.gitÎÄ¼ş¡£
+git -init åœ¨æ–‡ä»¶å¤¹ä¸­ç›´æ¥æ‰“å¼€git bash here  ï¼šæŠŠå½“å‰çš„ç›®å½•å˜æˆå¯ä»¥ç®¡ç†çš„gitä»“åº“ï¼Œç”Ÿæˆéšè—.gitæ–‡ä»¶ã€‚
 
-git -add ÎÄ¼şÃû ½«ÎÄ¼şÌí¼Ó½ø¹ÜÀí²Ö¿â
+git -add æ–‡ä»¶å å°†æ–‡ä»¶æ·»åŠ è¿›ç®¡ç†ä»“åº“
 
-git -commit -m'Ìá½»×¢ÊÍ';
+git -commit -m'æäº¤æ³¨é‡Š';
 
-git status ²é¿´µ±Ç°²Ö¿âµÄ×´Ì¬ 
+git status æŸ¥çœ‹å½“å‰ä»“åº“çš„çŠ¶æ€ 
 
-git log ²é¿´ÈÕÖ¾ 
+git log æŸ¥çœ‹æ—¥å¿— 
 
-git log --pretty=oneline ¸ñÊ½»¯²é¿´ÈÕÖ¾ĞÅÏ¢
+git log --pretty=oneline æ ¼å¼åŒ–æŸ¥çœ‹æ—¥å¿—ä¿¡æ¯
 
-git reset --hard HEAD^ »ØÍËµ½ÉÏÒ»°æ°æ±¾ (Èç¹ûÏë»ØÍËµ½100¸ö°æ±¾£¬Ê¹ÓÃgit reset ¨Chard HEAD~100 )
+git reset --hard HEAD^ å›é€€åˆ°ä¸Šä¸€ç‰ˆç‰ˆæœ¬ (å¦‚æœæƒ³å›é€€åˆ°100ä¸ªç‰ˆæœ¬ï¼Œä½¿ç”¨git reset â€“hard HEAD~100 )
 
-git reflog   ²é¿´ÀúÊ·¼ÇÂ¼µÄ°æ±¾ºÅid
+git reflog   æŸ¥çœ‹å†å²è®°å½•çš„ç‰ˆæœ¬å·id
 
-cat XX         ²é¿´XXÎÄ¼şÄÚÈİ
+cat XX         æŸ¥çœ‹XXæ–‡ä»¶å†…å®¹
 
-git checkout -- XX  °ÑXXÎÄ¼şÔÚ¹¤×÷ÇøµÄĞŞ¸ÄÈ«²¿³·Ïú¡£
+git checkout -- XX  æŠŠXXæ–‡ä»¶åœ¨å·¥ä½œåŒºçš„ä¿®æ”¹å…¨éƒ¨æ’¤é”€ã€‚
 
-git rm XX          É¾³ıXXÎÄ¼ş
-
-
-´´½¨£º ssh-keygen -t rsa -C"274950020@qq.com"
+git rm XX          åˆ é™¤XXæ–‡ä»¶
 
 
-°Ñ±¾µØ²Ö¿âµÄÄÚÈİÍÆËÍµ½gitHub²Ö¿â £º
-1¡¢¹ØÁª£ºgit remote add origin https://github.com/booleanstr/testgit.git
-2¡¢git push ¨Cu(µÚÒ»´ÎÒªÓÃ-u ÒÔºó²»ĞèÒª) origin master °Ñµ±Ç°master·ÖÖ§ÍÆËÍµ½Ô¶³Ì¿â
-	¡¾ÒÔºóÊ¹ÓÃ git push origin master ÃüÁî½øĞĞÍÆËÍ¡¿
+åˆ›å»ºï¼š ssh-keygen -t rsa -C"274950020@qq.com"
 
-´ÓÔ¶³Ì²Ö¿â¿ËÂ¡ÄÚÈİµ½±¾µØ²Ö¿â
-git clone https://github.com/booleanstr/testgit2   testgit2´ú±íÔ¶³Ì²Ö¿âµÄÃû³Æ  
 
+æŠŠæœ¬åœ°ä»“åº“çš„å†…å®¹æ¨é€åˆ°gitHubä»“åº“ ï¼š
+1ã€å…³è”ï¼šgit remote add origin https://github.com/booleanstr/testgit.git
+2ã€git push â€“u(ç¬¬ä¸€æ¬¡è¦ç”¨-u ä»¥åä¸éœ€è¦) origin master æŠŠå½“å‰masteråˆ†æ”¯æ¨é€åˆ°è¿œç¨‹åº“
+	ã€ä»¥åä½¿ç”¨ git push origin master å‘½ä»¤è¿›è¡Œæ¨é€ã€‘
+
+ä»è¿œç¨‹ä»“åº“å…‹éš†å†…å®¹åˆ°æœ¬åœ°ä»“åº“
+git clone https://github.com/booleanstr/testgit2   testgit2ä»£è¡¨è¿œç¨‹ä»“åº“çš„åç§°  
+  Ä´åŠ åŠ åŠ åŠ åŠ åŠ 
 ---------------------
-git checkout ¨Cb dev  ´´½¨dev·ÖÖ§ ²¢ÇĞ»»µ½dev·ÖÖ§ÉÏ
-git branch  ²é¿´µ±Ç°ËùÓĞµÄ·ÖÖ§
-git checkout master ÇĞ»»»Ømaster·ÖÖ§
-git merge dev    ÔÚµ±Ç°µÄ·ÖÖ§ÉÏºÏ²¢dev·ÖÖ§
-git branch ¨Cd dev É¾³ıdev·ÖÖ§
-git branch name  ´´½¨·ÖÖ§
-git stash °Ñµ±Ç°µÄ¹¤×÷Òş²ØÆğÀ´ µÈÒÔºó»Ö¸´ÏÖ³¡ºó¼ÌĞø¹¤×÷
-git stash list ²é¿´ËùÓĞ±»Òş²ØµÄÎÄ¼şÁĞ±í
-git stash apply »Ö¸´±»Òş²ØµÄÎÄ¼ş£¬µ«ÊÇÄÚÈİ²»É¾³ı
-git stash drop É¾³ıÎÄ¼ş
-git stash pop »Ö¸´ÎÄ¼şµÄÍ¬Ê± Ò²É¾³ıÎÄ¼ş
-git remote ²é¿´Ô¶³Ì¿âµÄĞÅÏ¢
-git remote ¨Cv ²é¿´Ô¶³Ì¿âµÄÏêÏ¸ĞÅÏ¢
-git push origin master  Git»á°Ñmaster·ÖÖ§ÍÆËÍµ½Ô¶³Ì¿â¶ÔÓ¦µÄÔ¶³Ì·ÖÖ§ÉÏ
+git checkout â€“b dev  åˆ›å»ºdevåˆ†æ”¯ å¹¶åˆ‡æ¢åˆ°devåˆ†æ”¯ä¸Š
+git branch  æŸ¥çœ‹å½“å‰æ‰€æœ‰çš„åˆ†æ”¯
+git checkout master åˆ‡æ¢å›masteråˆ†æ”¯
+git merge dev    åœ¨å½“å‰çš„åˆ†æ”¯ä¸Šåˆå¹¶devåˆ†æ”¯
+git branch â€“d dev åˆ é™¤devåˆ†æ”¯
+git branch name  åˆ›å»ºåˆ†æ”¯
+git stash æŠŠå½“å‰çš„å·¥ä½œéšè—èµ·æ¥ ç­‰ä»¥åæ¢å¤ç°åœºåç»§ç»­å·¥ä½œ
+git stash list æŸ¥çœ‹æ‰€æœ‰è¢«éšè—çš„æ–‡ä»¶åˆ—è¡¨
+git stash apply æ¢å¤è¢«éšè—çš„æ–‡ä»¶ï¼Œä½†æ˜¯å†…å®¹ä¸åˆ é™¤
+git stash drop åˆ é™¤æ–‡ä»¶
+git stash pop æ¢å¤æ–‡ä»¶çš„åŒæ—¶ ä¹Ÿåˆ é™¤æ–‡ä»¶
+git remote æŸ¥çœ‹è¿œç¨‹åº“çš„ä¿¡æ¯
+git remote â€“v æŸ¥çœ‹è¿œç¨‹åº“çš„è¯¦ç»†ä¿¡æ¯
+git push origin master  Gitä¼šæŠŠmasteråˆ†æ”¯æ¨é€åˆ°è¿œç¨‹åº“å¯¹åº”çš„è¿œç¨‹åˆ†æ”¯ä¸Š
